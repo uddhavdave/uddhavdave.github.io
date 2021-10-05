@@ -6,38 +6,28 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Uddhav Dave
+title: IoT Systems Engineer
+email: uddhavdave@protonmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+# phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+# website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-orcid_username: 0000-0000-0000-0000
+twitter_username: you_da_way
+github_username:  uddhavdave
+linkedin_username: uddhav-dave-a17259122
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+- title: Medium
+  icon: fab fa-medium 
+  url: https://medium.com/@uddhavdave1
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,64 +40,108 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: https://media-exp1.licdn.com/dms/image/C4E03AQFuhGjDFWKq9g/profile-displayphoto-shrink_800_800/0/1630222617013?e=1639008000&v=beta&t=2DrduQRpcLHBT34_Opf7JNgXpQtFpr2WSJFZ16BtBUU
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Hi! My name is Uddhav Dave, I'm an IoT Engineer with 2 years experience, currently specializing in FreeRTOS devices supporting Wifi/BLE stack. I enjoy working on Systems Architecture, Distributed Systems, Automation Scripting and Network Programming. 
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Some Skills i have acquired so far:
+  - <mark>Programming Languages</mark> [**C**, **RustLang**, **Python**] 
+  - <mark>Communication Protocols</mark> [**WiFi**, **BLE**, **MQTT**, **UART**]
+  - <mark>OS Level programming</mark> [**FreeRTOS**, **Linux**]
+  - <mark>Blockchain Development</mark> [**<a href="https://substrate.dev/">Substrate</a>**, **<a href="https://solana.com/ecosystem/anchor">Anchor</a>**]
+  
+  And I am really excited to add more.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: Reliance Jio
+        sub_title: Senior IoT Engineer (Embedded Systems)
+        caption: November 2019 - present
         quote: >
-          Short description of the company (optional)
+          Developer - Internet of Things
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          I am currently working in Jio Devices, specifically handling inclusion of devices in the IoT ecosystem. My work includes designing and developing safe and high performance firmware for smart devices in home automation services and work closely with App/Cloud teams to deliver client requirements. I heavily use <mark>C</mark> and <mark>Python</mark> to perform these tasks and work with low level system concepts such as <mark>Bootloader</mark> and <mark>NVS</mark> for embedded devices.
+
+          Being the person who is ready to learn and implement new topics with speed and competency, I have received exposure to multiple aspects of an IoT ecosystem Product. Amongst such topics is <mark>MQTT</mark>, <mark>WiFi</mark>, <mark>BLE</mark>, <mark>SIA-DC09</mark> and various proprietary protocols. Apart from communication protocols, I have gained very good experience on developing Firmware on <mark>FreeRTOS</mark> and apps in <mark>embedded Linux</mark>, and also have applied security algorithms such as <mark>AES</mark>, <mark>RSA</mark> and <mark>SHA/MD5</mark> Checksum validation to our solutions.
+
+          I enjoy learning about all areas of our application which allows me to be a go-to person for knowledge and queries within my team and the other teams in the office. I am always looking to suggest improvements and challenge what and how we are working to make sure we are delivering the best service to the customers while also developing to the highest standards.
+      - layout: left
+        title: Reliance Jio
+        sub_title: GIS Engineer Intern
+        caption: December 2018 - January 2019
+        quote: >
+          Internship - Geographical Information Systems
+        description: | # this will include new lines to allow paragraphs
+          While working as an intern in the GIS Department in Jio, i worked on clusters of geographical data and performed analysis on the same using <mark>ArcGIS</mark> and its python library to write scripts. Here i received Hands-on Experience on <mark>Geo-processing</mark>, <mark>Geo-mapping</mark> and using various tools to filter the Geographical vector data.
+
+          I wrote multiple <mark>Python scripts</mark> to automate some repetitive tasks for the GIS team. This was the first time I was able to see real benefits of automating stuff, and has always inspired me to look into things through this perspective.
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: Left
+        title: Savant Monk
+        additional_links:
+          - title:  uddhavdave/Sage
+            icon: fab fa-github
+            url: https://github.com/uddhavdave/Sage 
+        quote: >
+          Discord Bot for book Club Management
+        description: | # this will include new lines to allow paragraphs
+          Managing a Discord Book Club can be messy sometimes, and this bot gives you a helping hand. It keeps the server alive by posting some engaging messages and thoughtful quotes from various websites(<mark>API</mark> integration).
+          It manages subscriptions to the quotes and suggestions by storing the metadata in a <mark>MongoDB</mark> instance. The bot is purely made on <mark>Rust</mark> to ensure speed and safety.
+      - layout: Left
+        title: Maximizing ROE Factor
+        additional_links:
+          - title:  uddhavdave/Maximizing-ROE-Factor-
+            icon: fab fa-github
+            url: https://github.com/uddhavdave/Maximizing-ROE-Factor- 
+        quote: >
+          University Major Project
+        description: | # this will include new lines to allow paragraphs
+          Trained a <mark>Machine learning</mark> model using Genetic Algorithm and Linear Regression techniques to predict the price of a stock using <mark>MATLAB</mark>. This output was then used in an self implemented algorithm inspired from long term investment trading techniques written in <mark>Python</mark>. This application maximized the ROE factor of a company by considering input from the trained model and 6 technical indicators with an average accuracy of 67%.
+      - layout: Left
+        title: TicTacToe
+        additional_links:
+          - title:  uddhavdave/tictactoe
+            icon: fab fa-github
+            url: https://github.com/uddhavdave/tictactoe 
+        quote: >
+          Intro to Rust programming
+        description: | # this will include new lines to allow paragraphs
+          Simple Command Line game in <mark>Rust</mark>. Here, I added a AI player which follows a set of moves depending whether it goes first or not. (*Challenge*: Try to win!)
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+      - layout: Left
+        title: SRM Institute of Science and Technology, Kattankulathur
+        sub_title: B.Tech Software Engineering
+        caption: 2015-2019
         quote: >
-          Short institution or course description (optional)
+          74.4%
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          The four-year undergraduate course provided with a broad understanding of the core principles of software engineering and its practicality in field.
+      - layout: Left
+        title: Bright School CBSE
+        sub_title: SSC 
+        caption: 2013-2015
+        quote: >
+          82.0%
+        description: | # this will include new lines to allow paragraphs
+          Opted for Computer science, where I learned programming in C/C++, along with HTML and SQL. This laid the foundation of my career. 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+    content: |  # this will include new lines to allow paragraphs
+      Apart from Professional work, I always try to contribute to Open-Source and learn new trends in the market to keep my skills relevant. I have completed multiple courses on <mark>Deep learning</mark>, and implemented it in some small scale side projects. Currently, my latest obsession is <mark>Blockchain Development</mark>, where i try to implement Smart Contracts on blockchains like <a href="https://solana.com/ecosystem/anchor">Solana</a> and <a href="https://substrate.dev/">Polkadot</a>.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      But when I am not at my Desk, you can find me cycling around the Town or playing Table-Tennis with my friends. And finally, Watching E-sports, Playing Survival Games and Capturing everyday scenes creatively using Long-Exposure photography and Macro photography are some hobbies which I thoroughly enjoy.   
+
+  - title: 
+    layout: text
+    content: |
+      ![alt text](/images/kc.png "PacMan")
 
 # Footer
 footer_show_references: true
