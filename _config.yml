@@ -16,7 +16,7 @@ email: uddhavdave@protonmail.com
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 twitter_username: you_da_way
@@ -83,6 +83,8 @@ content:
     content:
       - layout: Left
         title: Savant Monk
+        link: https://github.com/uddhavdave/Sage 
+        link_text: Source Code
         additional_links:
           - title:  uddhavdave/Sage
             icon: fab fa-github
@@ -94,6 +96,8 @@ content:
           It manages subscriptions to the quotes and suggestions by storing the metadata in a <mark>MongoDB</mark> instance. The bot is purely made on <mark>Rust</mark> to ensure speed and safety.
       - layout: Left
         title: Maximizing ROE Factor
+        link: https://github.com/uddhavdave/Maximizing-ROE-Factor-
+        link_text: Source Code
         additional_links:
           - title:  uddhavdave/Maximizing-ROE-Factor-
             icon: fab fa-github
@@ -104,6 +108,8 @@ content:
           Trained a <mark>Machine learning</mark> model using Genetic Algorithm and Linear Regression techniques to predict the price of a stock using <mark>MATLAB</mark>. This output was then used in an self implemented algorithm inspired from long term investment trading techniques written in <mark>Python</mark>. This application maximized the ROE factor of a company by considering input from the trained model and 6 technical indicators with an average accuracy of 67%.
       - layout: Left
         title: TicTacToe
+        link: https://github.com/uddhavdave/tictactoe 
+        link_text: Source Code
         additional_links:
           - title:  uddhavdave/tictactoe
             icon: fab fa-github
@@ -136,7 +142,7 @@ content:
     content: |  # this will include new lines to allow paragraphs
       Apart from Professional work, I always try to contribute to Open-Source and learn new trends in the market to keep my skills relevant. I have completed multiple courses on <mark>Deep learning</mark>, and implemented it in some small scale side projects. Currently, my latest obsession is <mark>Blockchain Development</mark>, where i try to implement Smart Contracts on blockchains like <a href="https://solana.com/ecosystem/anchor">Solana</a> and <a href="https://substrate.dev/">Polkadot</a>.
 
-      But when I am not at my Desk, you can find me cycling around the Town or playing Table-Tennis with my friends. And finally, Watching E-sports, Playing Survival Games and Capturing everyday scenes creatively using Long-Exposure photography and Macro photography are some hobbies which I thoroughly enjoy.   
+      But when I am not at my Desk, you can find me cycling around the Town or playing Table-Tennis with my friends. Additionally, Watching E-sports, Playing Survival Games and, clicking Long-Exposure and Macro photographs are some hobbies which I thoroughly enjoy.   
 
   - title: 
     layout: text
