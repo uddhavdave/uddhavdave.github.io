@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Uddhav Dave
 title: IoT Systems Engineer
-email: uddhavdave@protonmail.com
+email: uddhavdave1@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
@@ -77,11 +77,11 @@ content:
         description: | # this will include new lines to allow paragraphs
           While working as an intern in the GIS Department in Jio, i worked on clusters of geographical data and performed analysis on the same using <mark>ArcGIS</mark> and its python library to write scripts. Here i received Hands-on Experience on <mark>Geo-processing</mark>, <mark>Geo-mapping</mark> and using various tools to filter the Geographical vector data.
 
-          I wrote multiple <mark>Python scripts</mark> to automate some repetitive tasks for the GIS team. This was the first time I was able to see real benefits of automating stuff, and has always inspired me to look into things through this perspective.
+          I wrote multiple <mark>Python</mark> scripts to automate some repetitive tasks for the GIS team. This was the first time I was able to see real benefits of automating stuff, and has always inspired me to look into things through this perspective.
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: Left
+      - layout: left
         title: Savant Monk
         link: https://github.com/uddhavdave/Sage 
         link_text: Source Code
@@ -94,7 +94,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Managing a Discord Book Club can be messy sometimes, and this bot gives you a helping hand. It keeps the server alive by posting some engaging messages and thoughtful quotes from various websites(<mark>API</mark> integration).
           It manages subscriptions to the quotes and suggestions by storing the metadata in a <mark>MongoDB</mark> instance. The bot is purely made on <mark>Rust</mark> to ensure speed and safety.
-      - layout: Left
+      - layout: left
         title: Maximizing ROE Factor
         link: https://github.com/uddhavdave/Maximizing-ROE-Factor-
         link_text: Source Code
@@ -106,7 +106,7 @@ content:
           University Major Project
         description: | # this will include new lines to allow paragraphs
           Trained a <mark>Machine learning</mark> model using Genetic Algorithm and Linear Regression techniques to predict the price of a stock using <mark>MATLAB</mark>. This output was then used in an self implemented algorithm inspired from long term investment trading techniques written in <mark>Python</mark>. This application maximized the ROE factor of a company by considering input from the trained model and 6 technical indicators with an average accuracy of 67%.
-      - layout: Left
+      - layout: left
         title: TicTacToe
         link: https://github.com/uddhavdave/tictactoe 
         link_text: Source Code
@@ -121,7 +121,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: Left
+      - layout: left
         title: SRM Institute of Science and Technology, Kattankulathur
         sub_title: B.Tech Software Engineering
         caption: 2015-2019
@@ -129,7 +129,7 @@ content:
           74.4%
         description: | # this will include new lines to allow paragraphs
           The four-year undergraduate course provided with a broad understanding of the core principles of software engineering and its practicality in field.
-      - layout: Left
+      - layout: left
         title: Bright School CBSE
         sub_title: SSC 
         caption: 2013-2015
@@ -144,10 +144,8 @@ content:
 
       But when I am not at my Desk, you can find me cycling around the Town or playing Table-Tennis with my friends. Additionally, Watching E-sports, Playing Survival Games and, clicking Long-Exposure and Macro photographs are some hobbies which I thoroughly enjoy.   
 
-  - title: 
+  - title:  Thank You!
     layout: text
-    content: |
-      ![alt text](/images/kc.png "PacMan")
 
 # Footer
 footer_show_references: true
