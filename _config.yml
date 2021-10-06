@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Uddhav Dave
-title: IoT Systems Engineer
+title: Software Engineer
 email: uddhavdave1@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -42,7 +42,7 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: https://media-exp1.licdn.com/dms/image/C4E03AQHQNLRQ_Hjzeg/profile-displayphoto-shrink_200_200/0/1633529085471?e=1639008000&v=beta&t=1QILRN6adTR-ZiEvLlUP1v6aiJRZmM1wT51qjzstpJs
 about_content: | # this will include new lines to allow paragraphs
-  Hi! My name is Uddhav Dave, I'm an IoT Engineer with 2 years experience, currently specializing in FreeRTOS devices supporting Wifi/BLE stack. I enjoy working on Systems Architecture, Distributed Systems, Automation Scripting and Network Programming. 
+  Hi! My name is Uddhav Dave, I'm a Software Engineer with 2 years experience, currently specializing in FreeRTOS devices supporting Wifi/BLE stack. I enjoy working on Systems Architecture, Distributed Systems, Automation Scripting and Network Programming. 
 
   Some Skills i have acquired so far:
   - <mark>Programming Languages</mark> [**C**, **RustLang**, **Python**] 
@@ -63,9 +63,9 @@ content:
         quote: >
           Developer - Internet of Things
         description: | # this will include new lines to allow paragraphs
-          I am currently working in Jio Devices, specifically handling inclusion of devices in the IoT ecosystem. My work includes designing and developing safe and high performance firmware for smart devices in home automation services and work closely with App/Cloud teams to deliver client requirements. I heavily use <mark>C</mark> and <mark>Python</mark> to perform these tasks and work with low level system concepts such as <mark>Bootloader</mark> and <mark>NVS</mark> for embedded devices.
+          I am currently working in Jio Devices, specifically handling inclusion of devices in the IoT ecosystem. My work includes designing and developing safe and high performance firmware for smart devices in home automation services and working closely with App/Cloud teams to deliver client requirements. I heavily use <mark>C</mark> and <mark>Python</mark> to perform these tasks and work with low level system concepts such as <mark>Bootloader</mark> and <mark>NVS</mark> for embedded devices.
 
-          Being the person who is ready to learn and implement new topics with speed and competency, I have received exposure to multiple aspects of an IoT ecosystem Product. Amongst such topics is <mark>MQTT</mark>, <mark>WiFi</mark>, <mark>BLE</mark>, <mark>SIA-DC09</mark> and various proprietary protocols. Apart from communication protocols, I have gained very good experience on developing Firmware on <mark>FreeRTOS</mark> and apps in <mark>embedded Linux</mark>, and also have applied security algorithms such as <mark>AES</mark>, <mark>RSA</mark> and <mark>SHA/MD5</mark> Checksum validation to our solutions.
+          Being the person who is ready to learn and implement new topics with speed and competency, I have received exposure to multiple aspects of an IoT ecosystem Product. Amongst such topics are <mark>MQTT</mark>, <mark>WiFi</mark>, <mark>BLE</mark>, <mark>SIA-DC09</mark> and various proprietary protocols. Apart from communication protocols, I have gained very good experience on developing Firmware on <mark>FreeRTOS</mark> and apps in <mark>embedded Linux</mark>, and also have applied security algorithms such as <mark>AES</mark>, <mark>RSA</mark> and <mark>SHA/MD5</mark> Checksum validation to our solutions.
 
           I enjoy learning about all areas of our application which allows me to be a go-to person for knowledge and queries within my team and the other teams in the office. I am always looking to suggest improvements and challenge what and how we are working to make sure we are delivering the best service to the customers while also developing to the highest standards.
       - layout: left
@@ -75,9 +75,9 @@ content:
         quote: >
           Internship - Geographical Information Systems
         description: | # this will include new lines to allow paragraphs
-          While working as an intern in the GIS Department in Jio, i worked on clusters of geographical data and performed analysis on the same using <mark>ArcGIS</mark> and its python library to write scripts. Here i received Hands-on Experience on <mark>Geo-processing</mark>, <mark>Geo-mapping</mark> and using various tools to filter the Geographical vector data.
+          While working as an intern in the GIS Department in Jio, i worked on clusters of geographical data and performed analysis on the same using <mark>ArcGIS</mark> and its python library to write scripts. Here I received Hands-on Experience on <mark>Geo-processing</mark>, <mark>Geo-mapping</mark> and using various tools to filter the Geographical vector data.
 
-          I wrote multiple <mark>Python</mark> scripts to automate some repetitive tasks for the GIS team. This was the first time I was able to see real benefits of automating stuff, and has always inspired me to look into things through this perspective.
+          I wrote multiple <mark>Python</mark> scripts to automate some repetitive tasks for the GIS team. This was the first time I was able to see real benefits of automating stuff, and it has always inspired me to look into things through this perspective.
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
