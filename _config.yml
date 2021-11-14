@@ -42,7 +42,7 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: https://media-exp1.licdn.com/dms/image/C4E03AQHQNLRQ_Hjzeg/profile-displayphoto-shrink_200_200/0/1633529085471?e=1639008000&v=beta&t=1QILRN6adTR-ZiEvLlUP1v6aiJRZmM1wT51qjzstpJs
 about_content: | # this will include new lines to allow paragraphs
-  Hi! My name is Uddhav Dave, I'm a Software Engineer with 2 years experience, currently specializing in FreeRTOS devices supporting Wifi/BLE stack. I enjoy working on Systems Architecture, Distributed Systems, Automation Scripting and Network Programming. 
+  Hi! My name is Uddhav Dave, I'm a Software Engineer with 2 years experience, currently specializing in FreeRTOS devices supporting Wifi/BLE stack. I enjoy working on Systems Architecture, Distributed Systems, IoT and Blockchain. 
 
   Some Skills i have acquired so far:
   - <mark>Programming Languages</mark> [**C**, **RustLang**, **Python**] 
@@ -95,6 +95,18 @@ content:
           Managing a Discord Book Club can be messy sometimes, and this bot gives you a helping hand. It keeps the server alive by posting some engaging messages and thoughtful quotes from various websites(<mark>API</mark> integration).
           It manages subscriptions to the quotes and suggestions by storing the metadata in a <mark>MongoDB</mark> instance. The bot is purely made on <mark>Rust</mark> to ensure speed and safety.
       - layout: left
+        title: Prize-Pool-Contract
+        link: https://github.com/uddhavdave/prize_pool_contract 
+        link_text: Source Code
+        additional_links:
+          - title:  uddhavdave/tictactoe
+            icon: fab fa-github
+            url: https://github.com/uddhavdave/prize_pool_contract 
+        quote: >
+          Solana Program for Prize Pool Management
+        description: | # this will include new lines to allow paragraphs
+          Program (Smart Contract) made in <mark>anchor-lang</mark> which provides functionalities for prize pool system in a <mark>web3</mark> project. It supports 2 client interaction and provides robust RPCs for claiming and depositing of funds.
+      - layout: left
         title: Maximizing ROE Factor
         link: https://github.com/uddhavdave/Maximizing-ROE-Factor-
         link_text: Source Code
@@ -105,19 +117,7 @@ content:
         quote: >
           University Major Project
         description: | # this will include new lines to allow paragraphs
-          Trained a <mark>Machine learning</mark> model using Genetic Algorithm and Linear Regression techniques to predict the price of a stock using <mark>MATLAB</mark>. This output was then used in an self implemented algorithm inspired from long term investment trading techniques written in <mark>Python</mark>. This application maximized the ROE factor of a company by considering input from the trained model and 6 technical indicators with an average accuracy of 67%.
-      - layout: left
-        title: TicTacToe
-        link: https://github.com/uddhavdave/tictactoe 
-        link_text: Source Code
-        additional_links:
-          - title:  uddhavdave/tictactoe
-            icon: fab fa-github
-            url: https://github.com/uddhavdave/tictactoe 
-        quote: >
-          Intro to Rust programming
-        description: | # this will include new lines to allow paragraphs
-          Simple Command Line game in <mark>Rust</mark>. Here, I added a AI player which follows a set of moves depending whether it goes first or not. (*Challenge*: Try to win!)
+          Trained a <mark>Machine learning</mark> model using Genetic Algorithm and Linear Regression techniques to predict the price of a stock using <mark>MATLAB</mark>. This output was then used in an self implemented algorithm inspired from long term investment trading techniques written in <mark>Python</mark>. This application maximized the ROE factor of a company by considering input from the trained model and 6 technical indicators with an average accuracy of 67%. 
   - title: Education
     layout: list
     content:
@@ -140,7 +140,7 @@ content:
   - title: A Little More About Me
     layout: text
     content: |  # this will include new lines to allow paragraphs
-      Apart from Professional work, I always try to contribute to Open-Source and learn new trends in the market to keep my skills relevant. I have completed multiple courses on <mark>Deep learning</mark>, and implemented it in some small scale side projects. Currently, my latest obsession is <mark>Blockchain Development</mark>, where i try to implement Smart Contracts on blockchains like <a href="https://solana.com/ecosystem/anchor">Solana</a> and <a href="https://substrate.dev/">Polkadot</a>.
+      Apart from Professional work, I always try to contribute to Open-Source and learn new trends in the market to keep my skills relevant. I have completed multiple courses on <mark>Deep learning</mark>, and implemented it in some small scale side projects. My latest obsession is <mark>Blockchain Development</mark>, where i try to implement Smart Contracts on blockchains like <a href="https://solana.com/ecosystem/anchor">Solana</a> and <a href="https://substrate.dev/">Polkadot</a>.
 
       But when I am not at my Desk, you can find me cycling around the Town or playing Table-Tennis with my friends. Additionally, Watching E-sports, Playing Survival Games and, clicking Long-Exposure and Macro photographs are some hobbies which I thoroughly enjoy.   
 
